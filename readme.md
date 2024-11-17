@@ -43,3 +43,10 @@ Our application leverages a combination of modern machine learning frameworks an
 - *NumPy & Pandas*: Essential for efficient data manipulation, handling, and analysis.
 - *Scikit-learn*: Used for preprocessing and feature engineering, ensuring data is well-prepared for modeling.
 
+
+
+## How did we use it
+
+We performed exploratory data analysis in the `EDA` notebook.
+We used the python notebook `model_v1` to generate the embedings of the images.
+Then, we used multipler other python notebooks (such as `main_inference`) to try out different methods of predicting the test values. 
