@@ -30,18 +30,16 @@ In the fashion industry, accurately logging new garment samples into digital sys
 This project aims to create a model capable of determining the design attributes of a product given a product image and product metadata. The solution leverages the use of a Fashion-pretrained Model (CLIP) for creating the embeddings of the images, and the use of traditional AI models to classify the different products from the images and the data given.
 
 
-## How we did it
+## Technical Stack
 
-Our application leverages modern ML frameworks and tools:
+![Concept map.png](Images/Concept-map.png)
 
-* **PyTorch** for deep learning and CLIP
-* **XGBoost** for gradient boosting
-* **OpenCV** for image processing
-* Streamlit for web interface
-* NumPy and Pandas for data handling
-* Scikit-learn for preprocessing
+Our application leverages a combination of modern machine learning frameworks and tools to deliver a seamless and efficient experience:
 
-We used PyTorch and CLIP to generate embeddings for the images, which allowed us to capture the visual features of the garments. XGBoost was then used to classify these embeddings along with the metadata to predict the design attributes. OpenCV helped in preprocessing the images to ensure they were in the right format for the model. Streamlit was used to create an interactive web interface for users to upload images and view the predicted attributes. NumPy and Pandas were essential for handling and manipulating the data, while Scikit-learn provided tools for preprocessing and evaluating the model's performance.
-
-![Concept_map](Images/Concept-map.png)
+- *PyTorch*: Used for deep learning tasks, including the integration of CLIP for powerful image-text embeddings.
+- *XGBoost*: Implements gradient boosting algorithms for efficient and scalable model training.
+- *OpenCV*: Handles advanced image processing tasks, enabling effective visual data manipulation.
+- *Streamlit*: Powers the web interface, providing an intuitive and interactive user experience.
+- *NumPy & Pandas*: Essential for efficient data manipulation, handling, and analysis.
+- *Scikit-learn*: Used for preprocessing and feature engineering, ensuring data is well-prepared for modeling.
 
