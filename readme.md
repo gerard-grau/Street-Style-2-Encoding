@@ -12,6 +12,10 @@ In the fashion industry, accurately logging new garment samples into digital sys
 - Seamlessly updates the product catalog with garment attributes that will ultimately appear on online stores.
 
 
+## Overview
+
+This project aims to create a model capable of determining the design attributes of a product given a product image and product metadata. The solution leverages the use of a Fashion-pretrained Model (CLIP) for creating the embeddings of the images, and the use of traditional AI models to classify the different products from the images and the data given.
+
 ## Objectives
 
 * **Accuracy:** It is crucial that the accuracy of the model is the highest it can be to ensure that designers do not have to spend time correcting errors in the automatically generated product sheets. High accuracy will allow designers to trust the system and focus on their primary tasks, thereby increasing overall productivity and efficiency.
@@ -24,10 +28,6 @@ In the fashion industry, accurately logging new garment samples into digital sys
 
 * **Robustness:** The model should be robust enough to handle variations in image quality, lighting conditions, and different styles of garments. It should be able to reliably handle images of both clothes and models with clothes on, and generalize well across different types of products and scenarios. It is important that both types of images are correctly labeled to ensure the accuracy and reliability of the system.
 
-
-## Overview
-
-This project aims to create a model capable of determining the design attributes of a product given a product image and product metadata. The solution leverages the use of a Fashion-pretrained Model (CLIP) for creating the embeddings of the images, and the use of traditional AI models to classify the different products from the images and the data given.
 
 
 ## Technical Stack
